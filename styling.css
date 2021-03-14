@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+background-color: #000000;
+background-image: url("images/fsground.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center top;
+margin: 0;
+padding: 0;
+color: #284096;
+font-family: Verdana, Geneva, sans-serif;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+font-weight: normal;
+}
+a:link,
+a:visited{
+color: #284096;
+}
+a:hover,
+a:active{
+color: #8E7030;
+}
+.container {
+width: 615px;
+margin: 0 auto;
+}
+.content {
+/*width: 615px;*/
+float: left;
+text-align: left;
+}
+.smallcontainer {
+width: 60%;
+margin: auto;
+}
+.infotxt {
+line-height: 1.5em;
+}
+.chaptername {
+font-size: 20px;
+text-decoration: underline;
+}
+.footer {
+font-size: 12px;
+}
+.bigunderline {
+font-size: 22px;
+text-decoration: underline;
+color: #8E7030;
+text-decoration-color: #8E7030; 	
+}
+.thanks {
+font-size: 22px;
+}
+.buynow {
+width: 252px;
+}
+hr { 
+background: #1B2B63;
+height: 3px;
+top: 20px;
+margin-bottom: 20px;
+position: relative;
+border: none;
+}
+.unselectable {
+	outline: none;
+}
+img {
+display: block;
+}
+/*FORM FORMAT*/
+.custom-select {
+position: relative;
+font-family: Verdana, Geneva, sans-serif;
+text-decoration: none;
+font-size: 22px;
+font-weight: normal;
+/*color: #226830;*/
+background-color: black;
+border-color: #21357C;
+border-width: 2px;
+text-align: left;
+width: 80%;
+margin: auto;
+}
+input[type="radio"]:checked+label{
+	color: #8E7030;
+}
+/*.custom-label {
+	color: #226830;
+}*/
+.custom-select:focus {
+outline: 0;
+}
+option {
+background-color: black;
+}
+select:selected {
+color: #8E7030;
+}
+::selection {
+background-color: white;
+color: black;
+}
+/*.form-control:focus {
+outline: 0;
+box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}*/

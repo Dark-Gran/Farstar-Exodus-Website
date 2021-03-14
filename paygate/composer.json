@@ -1,0 +1,17 @@
+{
+    "name": "darkgran/paygate",
+    "description": "PP Webhook Listener",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Filip Randak",
+            "email": "filip.randak@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/payherald.php"
+        ]
+    },
+    "require": {}
+}
